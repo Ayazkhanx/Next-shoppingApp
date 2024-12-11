@@ -4,12 +4,12 @@ import { RiListSettingsFill } from "react-icons/ri";
 import { HiMiniSquares2X2 } from "react-icons/hi2";
 
 // Import images
-import pic1 from '../public/shop 2.png';
-import pic2 from '../public/shop 4.png';
-import pic3 from '../public/shop 5.png';
-import pic4 from '../public/shop 9.png';
-import pic5 from '../public/shop 7.png';
-import pic6 from '../public/shop 8.png';
+// import pic1 from '../public/shop 2.png';
+// import pic2 from '../public/shop 4.png';
+// import pic3 from '../public/shop 5.png';
+// import pic4 from '../public/shop 9.png';
+// import pic5 from '../public/shop 7.png';
+// import pic6 from '../public/shop 8.png';
 
 // Related products data
 const products = [
