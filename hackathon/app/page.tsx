@@ -1,13 +1,13 @@
 import Image from 'next/image'; // Next.js Image component
 import { IoIosArrowForward } from "react-icons/io"; // For button icon
-import { RiListSettingsFill } from "react-icons/ri"; // For icons in section 2 & 4
-import { HiMiniSquares2X2 } from "react-icons/hi2"; // For icons in section 2 & 4
+// import { RiListSettingsFill } from "react-icons/ri"; // For icons in section 2 & 4
+// import { HiMiniSquares2X2 } from "react-icons/hi2"; // For icons in section 2 & 4
 
 // Example Images for product and sections
 import pic from '../public/home 1.jpg';
-import pic1 from '../public/home 8.png';
-import pic2 from '../public/home 2.png';
-import pic3 from '../public/ome 5.png';
+// import pic1 from '../public/home 8.png';
+// import pic2 from '../public/home 2.png';
+// import pic3 from '../public/ome 5.png';
 
 // Products Data
 const products = [

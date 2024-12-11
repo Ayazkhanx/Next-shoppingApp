@@ -1,7 +1,7 @@
 import React from 'react';
 import { IoIosArrowForward } from "react-icons/io";
-import { RiListSettingsFill } from "react-icons/ri";
-import { HiMiniSquares2X2 } from "react-icons/hi2";
+// import { RiListSettingsFill } from "react-icons/ri";
+// import { HiMiniSquares2X2 } from "react-icons/hi2";
 
 // Import images
 // import pic1 from '../public/shop 2.png';
