@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import { FaSearch } from 'react-icons/fa';
+import Link from 'next/link';
 import { CiHeart } from 'react-icons/ci';
 import { FiShoppingCart } from 'react-icons/fi';
 import { CiUser } from 'react-icons/ci';
@@ -62,10 +63,10 @@ export default function Navbar() {
       {isMobileMenuOpen && (
         <div className="md:hidden p-4 bg-white shadow-md">
           <ul className="space-y-4">
-            <li><a href="/home" className="text-lg">Home</a></li>
-            <li><a href="/about" className="text-lg">Shop</a></li>
-            <li><a href="/signup" className="text-lg">Blog</a></li>
-            <li><a href="/contact" className="text-lg">Contact</a></li>
+            <li><Link href={'/home'}>Home</Link></li>
+            <li><Link href={'/shop'}>Shop</Link></li>
+            <li><Link href={'/contact'}>Contact</Link></li>
+            <li><Link href={'/blog'}>Blog</Link></li>
           </ul>
         </div>
       )}
