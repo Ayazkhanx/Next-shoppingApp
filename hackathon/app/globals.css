@@ -49,3 +49,7 @@ body {
   text-align: center; /* Center the text */
   color: black; /* Text color */
 }
+
+.shop1 {
+  background-image: url('/home 1.jpg'); /* Background image */
+}
