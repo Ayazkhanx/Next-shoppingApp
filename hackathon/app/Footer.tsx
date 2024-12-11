@@ -1,8 +1,8 @@
 import React from "react";
-import { BiMailSend } from "react-icons/bi";
-import gplay from '../public/g play.png';
-import appstore from '../public/App store.png';
-import QR from '../public/QR Code.jpg';
+// import { BiMailSend } from "react-icons/bi";
+// import gplay from '../public/g play.png';
+// import appstore from '../public/App store.png';
+// import QR from '../public/QR Code.jpg';
 
 export default function Footer() {
   return (

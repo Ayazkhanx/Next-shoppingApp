@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { CiHeart } from 'react-icons/ci';
 import { FiShoppingCart } from 'react-icons/fi';
 import { CiUser } from 'react-icons/ci';
-import logo from '../public/logo.png'; // assuming logo is in the public directory
+// import logo from '../public/logo.png'; // assuming logo is in the public directory
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
