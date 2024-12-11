@@ -27,10 +27,10 @@ export default function Navbar() {
 
         {/* Navbar links */}
         <ul className="flex space-x-8">
-          <li><a href="home.tsx" className="text-lg hover:text-indigo-600">Home</a></li>
-          <li><a href="/shop.tsx" className="text-lg hover:text-indigo-600">Shop</a></li>
-          <li><a href="/blog.tsx" className="text-lg hover:text-indigo-600">Blog</a></li>
-          <li><a href="/contact.tsx" className="text-lg hover:text-indigo-600">Contact</a></li>
+        <li><Link href={'/'}>Home</Link></li>
+        <li><Link href={'/shop'}>Shop</Link></li>
+        <li><Link href={'/contact'}>Contact</Link></li>
+        <li><Link href={'/blog'}>Blog</Link></li>
         </ul>
 
         {/* Icons section */}
@@ -63,7 +63,7 @@ export default function Navbar() {
       {isMobileMenuOpen && (
         <div className="md:hidden p-4 bg-white shadow-md">
           <ul className="space-y-4">
-            <li><Link href={'/home'}>Home</Link></li>
+            <li><Link href={'/'}>Home</Link></li>
             <li><Link href={'/shop'}>Shop</Link></li>
             <li><Link href={'/contact'}>Contact</Link></li>
             <li><Link href={'/blog'}>Blog</Link></li>
