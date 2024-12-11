@@ -1,6 +1,6 @@
 import React from 'react';
-import Image from 'next/image'; // Next.js Image component
-import pic from '../public/shop 1.jpg'; // Image import for background
+// import Image from 'next/image'; // Next.js Image component
+// import pic from '../public/shop 1.jpg'; // Image import for background
 // import logo from './public/logo.png';
 import { IoIosArrowForward } from "react-icons/io";
 import { FaTrophy } from "react-icons/fa";
