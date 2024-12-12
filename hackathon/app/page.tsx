@@ -5,7 +5,7 @@ import { IoIosArrowForward } from "react-icons/io"; // For button icon
 
 // Example Images for product and sections
 import pic from '../public/home 1.jpg';
-// import pic1 from '../public/home 8.png';
+import pic1 from '../public/home 8.png';
 // import pic2 from '../public/home 2.png';
 // import pic3 from '../public/ome 5.png';
 
