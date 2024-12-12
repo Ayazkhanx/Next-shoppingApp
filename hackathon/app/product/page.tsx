@@ -7,7 +7,7 @@ import { RiCustomerService2Fill } from "react-icons/ri";
 
 // Import images
 import logo from '../../public/logo.png';
-import pic1 from '../../public/shop 1.jpg'; 
+// import pic1 from '../../public/shop 1.jpg'; 
 import pic2 from '../../public/shop 2.png';
 import pic3 from '../../public/shop 6.png';
 
