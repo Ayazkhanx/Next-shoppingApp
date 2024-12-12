@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #ffffff;
+  --background: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: #0a0a0a;
+    --background: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog1 {
+  opacity: 0.5;
+  background-image: url('/shop 1.jpg'); /* Background image */
+  background-size: cover; /* Ensures image covers the entire section */
+  background-position: center; /* Centers the image */
+  height: 400px;  /* Full height of the viewport */
+  display: flex; /* Flexbox for center alignment */
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  text-align: center; /* Center the text */
+  color: black; /* Text color */
+}
+
+.text-3xl {
+  color: black; /* Ensures the text is white on dark background */
+}
+
+.home4 {
+  background-image: url('/home 1.jpg'); /* Background image */
+  background-size: cover; /* Ensures image covers the entire section */
+  background-position: center; /* Centers the image */
+  height: 400px;  /* Full height of the viewport */
+  display: flex; /* Flexbox for center alignment */
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  text-align: center; /* Center the text */
+  color: black; /* Text color */
+}
+
+.shop1 {
+  background-image: url('/home 1.jpg'); /* Background image */
+}
