@@ -15,7 +15,7 @@ export default function ContactPage() {
         <div className="text-3xl text-black font-bold mt-5 flex flex-col justify-center items-center h-full">
           <Image src="/logo.png" alt="Logo" width={150} height={150} /> {/* Logo */}
           <h1>Contact</h1>
-          <div className="flex p-10">
+          <div className="flex items-center p-10">
             <p>Home</p>
             <IoIosArrowForward />
             <p className="text-gray-400"> Contact</p>

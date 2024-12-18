@@ -1,9 +1,7 @@
-import Image from 'next/image'; // Next.js Image component
-import { IoIosArrowForward } from "react-icons/io"; // For button icon
-// import { RiListSettingsFill } from "react-icons/ri"; // For icons in section 2 & 4
-// import { HiMiniSquares2X2 } from "react-icons/hi2"; // For icons in section 2 & 4
+import Image from 'next/image'; 
+import { IoIosArrowForward } from "react-icons/io"; 
 
-// Example Images for product and sections
+
 import pic from '../public/home 1.jpg';
 // import pic1 from '../public/home 8.png';
 // import pic2 from '../public/home 2.png';
@@ -121,7 +119,7 @@ export default function Home() {
 
       {/* Section 4: Additional Products */}
       <div className="p-10">
-        <h2 className="text-4xl font-bold mb-4">More Products</h2>
+        <h2 className="text-4xl font-bold text-center mb-4">More Products</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {products.map((product) => (
             <div key={product.id} className="border p-4">

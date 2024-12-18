@@ -7,7 +7,7 @@ import { CiSearch } from "react-icons/ci";
 import { LuBadgeCheck } from "react-icons/lu";
 import { RiCustomerService2Fill } from "react-icons/ri";
 
-// Importing images for optimization
+
 import logo from '../../public/logo.png';
 import pic1 from '../../public/blog 1.jpg';
 import pic2 from '../../public/blog 2.jpg';

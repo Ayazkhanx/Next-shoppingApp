@@ -22,7 +22,7 @@ export default function ShopPage() {
           <Image src={logo} alt="Logo" width={150} height={150} /> {/* Logo */}
           <h1>Product</h1>
 
-          <div className="flex p-10">
+          <div className="flex items-center p-10">
             <p>Home</p>
             <IoIosArrowForward />
             <p className="text-gray-400">Product</p>

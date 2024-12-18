@@ -48,10 +48,10 @@ export default function ShopPage() {
     <div className="p-10">
 
       {/* Section 1: Header and Breadcrumb */}
-      <div className="text-3xl text-black font-bold mt-5 flex flex-col justify-center items-center h-full">
+      <div className="text-3xl blog1 text-black font-bold mt-5 flex flex-col justify-center items-center h-full">
         <Image src="/logo.png" alt="Logo" width={150} height={150} />
         <h1>Shop</h1>
-        <div className="flex p-10">
+        <div className="flex p-10 items-center">
           <p>Home</p>
           <IoIosArrowForward />
           <p className="text-gray-400">Shop</p>
